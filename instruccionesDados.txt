@@ -1,0 +1,5 @@
+
+ Para jugar al los Dados hay que setear el valorDeApuesta
+ Si el resultado da 7 u 11 gana la jugada y se suma el valor de premio seteado previamente.
+ Si pierde la jugada se restan $10
+ 
