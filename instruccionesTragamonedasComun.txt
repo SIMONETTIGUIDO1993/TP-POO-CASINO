@@ -1,0 +1,5 @@
+ 
+ Para jugar al Tragamonedas hay que setear el valorDeApuesta y los 3 numeros ganadores
+ Si gana la jugada se le suma el valor previamente seteado de premio.
+ Si pierde la jugada se restan $10
+ 
