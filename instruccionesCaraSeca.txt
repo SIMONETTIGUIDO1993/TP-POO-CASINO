@@ -1,0 +1,4 @@
+
+ Para jugar al CaraSeca hay que setear el valorDeApuesta y la cara elegida ( "cara" o "seca" en minuscula)
+ Si gana la jugada se le suma el valor previamente seteado de premio.
+ Si pierde la jugada se restan $10
