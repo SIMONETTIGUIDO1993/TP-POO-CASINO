@@ -1,0 +1,5 @@
+
+ Para jugar al TragamonedasBonus hay que setear el valorDeApuesta
+ Se gana si los 3 numeros son iguales.
+ Si gana la jugada se suman $50
+ Si pierde la jugada se restan $10
