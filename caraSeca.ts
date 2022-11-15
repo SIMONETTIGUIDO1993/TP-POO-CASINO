@@ -17,7 +17,7 @@ export class CaraSeca {
   }
 
   jugarCaraSeca(pCaraElegida: string): string {
-    this.setCaraElegida(pCaraElegida);
+    if (pCaraElegida) this.setCaraElegida(pCaraElegida);
     let caraSeca = this.getRandomInt(2);
     let ladoResultado = this.convertiNnumberAString(caraSeca);
 

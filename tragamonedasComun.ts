@@ -8,6 +8,7 @@ export class Tragamonedas {
         this.valorDeApuesta = pValorDeApuesta;
         this.valorPremio = pValorPremio;
         this.arregloCarretes = pArregloCarretes;
+        this.arregloJugada = [];
     }
 
     setValorDeApuesta(pValorDeApuesta: number): void {

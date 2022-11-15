@@ -16,7 +16,7 @@ console.log(Bienvenidos);
 //  Juego: tragamonedas
 let tragamonedas: Tragamonedas = new Tragamonedas(50, 250, [1, 2, 3]);
 
-//  Juego:  tragamonedasBonus
+// Juego: tragamonedasBonus
 let tragamonedasBonus: TragamonedasBonus = new TragamonedasBonus(50, 250, [1, 2, 3]);
 
 // Juego: caraSeca
@@ -25,6 +25,7 @@ let caraSeca: CaraSeca = new CaraSeca(50, 10);
 // Juego: dado
 let dados: Dado = new Dado(6, 50, 10);
 
+
 let jugadas: Jugada = new Jugada(tragamonedas, tragamonedasBonus, caraSeca, dados);
 
 
@@ -32,9 +33,6 @@ console.log(instruccionesTragamonedasComun);
 // Para jugar al Tragamonedas hay que setear el valorDeApuesta y los 3 numeros ganadores
 // Si gana la jugada se le suma el valor previamente seteado de premio.
 // Si pierde la jugada se restan $10
-
-tragamonedas.setArregloCarretes([0, 1, 2]);
-tragamonedas.setValorDeApuesta(30);
 
 let jugadaTragamonedas1 = jugadas.jugarJuego("tragamonedas");
 console.log(jugadaTragamonedas1);
@@ -55,7 +53,6 @@ console.log(instruccionesTragamonedasBonus);
 // Si gana la jugada se suman $50
 // Si pierde la jugada se restan $10
 
-tragamonedasBonus.setValorDeApuesta(30)
 let jugadaTragamonedasBonus1 = jugadas.jugarJuego("tragamonedasBonus");
 console.log(jugadaTragamonedasBonus1);
 
@@ -74,7 +71,6 @@ console.log(instruccionesCaraSeca);
 // Si gana la jugada se le suma el valor previamente seteado de premio.
 // Si pierde la jugada se restan $10
 
-caraSeca.setValorDeApuesta(40)
 caraSeca.setCaraElegida("seca")
 let jugadaCaraSeca1 = jugadas.jugarJuego("caraSeca");
 console.log(jugadaCaraSeca1);
@@ -88,7 +84,6 @@ console.log(instruccionesDados);
 // Si el resultado da 7 u 11 gana la jugada y se suma el valor de premio seteado previamente.
 // Si pierde la jugada se restan $10
 
-dados.setValorDeApuesta(40)
 let jugadaDado1 = jugadas.jugarJuego("dado")
 console.log(jugadaDado1);
 

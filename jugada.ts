@@ -26,7 +26,7 @@ export class Jugada {
                 mensajeJugada = this.tragamonedasBonus.jugarTragamonedas();
                 break;
             case "caraSeca":
-                mensajeJugada = this.caraSeca.jugarCaraSeca("cara");
+                mensajeJugada = this.caraSeca.jugarCaraSeca("");
                 break;
             case "dado":
                 mensajeJugada = this.dado.jugarDado();
